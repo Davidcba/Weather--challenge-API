@@ -1,0 +1,7 @@
+curl --location --request POST 'localhost:5000/api/weather' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "lat": -33.13,
+    "lon": -64.34
+    }'
+
